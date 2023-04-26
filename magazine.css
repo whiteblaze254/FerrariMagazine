@@ -1,0 +1,93 @@
+#sec2{
+    width: 98vw;
+}
+.card {
+    display: flex;
+    gap: 4px;
+    overflow: auto;
+    white-space: nowrap;
+    width: 98vw; 
+    background-color: rgb(191, 216, 215);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.card:last-of-type .car-pic-container:hover {
+    transform: none;
+    margin-top: 3px;
+}
+.card:last-of-type .car-pic-container:first-of-type:hover {
+    margin-left: 15px;
+}
+.car-pic-container {
+    width: 40vw;
+    height: fit-content;
+    background-color: gray;
+    transition: box-shadow 0.5s;
+    transition: transform 0.5s;
+    transition: margin-left 0.5s;
+    transition: transform 1s;
+    max-width: 340px;
+    min-width: 250px;
+    margin: 4px;
+}
+.car-pic-container:first-of-type {
+    margin-left: 15px;
+}
+.car-pic-container:first-of-type:hover {
+    margin-left: 65px;
+}
+.car-pic-container:hover {
+    box-shadow: 0 0 2px 3px rgba(255, 0, 0, 0.507);
+}
+.ferrari-img {
+    text-align: center;
+    height: auto;
+    
+}
+.convert {
+    width: 100%; 
+    padding: 5px;
+    max-width: 340px; 
+    min-width: 200px;
+}
+.convert-fig {
+    text-align: left;
+    margin-left: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: -27px;
+    color: rgb(54, 4, 4);
+}
+.car-description {
+    position: relative;
+    top: -23px;
+    padding-left: 5px;
+    width: 40vw;
+
+}
+.car-name {
+    font-size: 1.7rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.car-price {
+    font-size: 1.25rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-right: 2rem;
+}
+.car-hp {
+    font-size: 1.25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.car-hp:hover, .car-name:hover, .car-price:hover {
+    color: rgb(6, 4, 141);
+}
+.to-right {
+    animation: linetoright 7s infinite linear ;
+}
+.to-left {
+    position: absolute;
+    right: 1.2vw;
+    margin-bottom: 10px;
+    animation: linetoleft 7s infinite linear ;
+}

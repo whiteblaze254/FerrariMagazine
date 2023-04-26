@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+figure {
+    margin: 0;
+}
+html {
+    margin-right: 100px;
+}
+section {
+    margin-bottom: 20px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+body {
+    background-color: rgb(53, 53, 53)
+}
+h1 {
+    text-align: center;
+    color: aqua;
+    font-size: 2rem;
+    width: 98vw;
+    margin: 10px 0;
+}
+hr {
+    height: 1px;
+    border: none;
+    margin: 0;
+}

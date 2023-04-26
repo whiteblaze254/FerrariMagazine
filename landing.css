@@ -1,0 +1,51 @@
+#sec1 {
+    height: 98vh;
+    width: 98vw;
+    box-shadow: 0 0 2px 3px rgb(161, 56, 56);
+    margin-bottom: 100px;
+}
+
+.pic {
+    position: relative;
+}
+#front-img {
+    height: 98vh;
+    width: 100%;
+    object-fit: cover;
+    margin-right: 10px;
+    z-index: -2;
+} 
+
+#enzo {
+    height: 40vh;
+    width: 100%;
+    object-fit: contain;
+    position: absolute;
+    top: -94vh;
+    opacity: 0.7;  
+    transition: opacity 0.2s;  
+}
+#enzo:hover {
+    opacity: 1;
+}
+
+.history {
+    position: absolute;
+    background-color: rgba(194, 194, 194, 0.514);
+    width: 98vw;
+    top: -53vh;
+    padding: 0 25px 0 5px;
+    
+}
+
+.history p {    
+    margin: 0;
+}
+
+.history p::first-letter {
+    color: rgb(184, 23, 17);
+    float: left;
+    font-size: 2rem;
+    margin: 0 2px 0 0;
+    line-height: 2rem;
+}
